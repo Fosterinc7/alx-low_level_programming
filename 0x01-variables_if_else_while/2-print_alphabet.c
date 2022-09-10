@@ -1,19 +1,19 @@
 #include <stdio.h>
 #include <ctype.h>
 /**
- * main - Entrypoint
- *
- * Return: Always 0 (success)
- *
+ * main - print if the number is positive, zero, or negative
+ * 
+ * Description: using the main function
+ * this program prints "Programming is positive, zero, or negative"
+ * Return: 0
  */
 int main(void)
 {
-	int letter;
+	char ch;
 
-	for (letter = 'a'; letter <= 'z' letter_++)
+	for (ch = 'a'; ch <= 'z' ch++)
 	{
-		letter = tolower(letter);
-		putchar(letter);
+		putchar(ch);
 	}
 	putchar('\n');
 	return (0);
