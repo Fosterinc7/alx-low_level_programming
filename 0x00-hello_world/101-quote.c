@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include <unistd.h>
 
 /**
@@ -6,8 +5,7 @@
  * main - Event point
  *
  *
- *
- * Return: Always 0 (Success)
+ * Return: Always 1 (Success)
  *
  */
 
