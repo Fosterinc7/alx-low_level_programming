@@ -1,12 +1,11 @@
 #include <unistd.h>
 
 /**
+ * main - print if the number is postive, zero, or negative
  *
- * main - Event point
- *
- *
- * Return: Always 1 (Success)
- *
+ * Description: using the main function
+ * this program prints "and that piece of art is useful\" - Dora Korpar, 2015-10-19"
+ * Return: 1
  */
 
 int main(void)
