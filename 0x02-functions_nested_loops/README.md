@@ -1,1 +1,1 @@
-Write a function that prints all natural numbers from n to 98, followed by a newline
+Write a function that prints the n times tablle,starting with 0
