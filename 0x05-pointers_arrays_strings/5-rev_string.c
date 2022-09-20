@@ -2,12 +2,13 @@
 #include "main.h"
 
 /**
- * rev-string - Reverses a string
+ * rev_string - Reverses a string
  * @s: String to be reversed
  *
  * Description: this program prints a string in reverse
  * Return: Nothing
  */
+
 void rev_string(char *s)
 {
 	int i = 0, length;
