@@ -1,7 +1,10 @@
+#include <stdio.h>
 #include "main.h"
+
 /**
- * rev-string - Reverse a string
- * @s: String to reverse
+ * rev-string - Reverses a string
+ * @s: String to be reversed
+ *
  * Description: this program prints a string in reverse
  * Return: Nothing
  */
@@ -22,6 +25,7 @@ void rev_string(char *s)
 /**
  * _strlen - returns the length of a string
  * @s: string
+ *
  * Return: returns length;
  */
 
