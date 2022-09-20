@@ -4,7 +4,6 @@
  * @s: String to reverse
  * Return: Nothing
  */
-
 void rev_string(char *s)
 {
 	int i = 0, length;
