@@ -2,6 +2,7 @@
 /**
  * rev-string - Reverse a string
  * @s: String to reverse
+ * Description: this program prints a string in reverse
  * Return: Nothing
  */
 void rev_string(char *s)
