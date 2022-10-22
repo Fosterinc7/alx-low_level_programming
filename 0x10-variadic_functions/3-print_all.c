@@ -52,12 +52,18 @@ void print_all(const char * const format, ...)
 	char *sep = "";
 
 	printTypeStruct printType[] = {
-		{ "i", print_int },
-		{ "f", print_float },
+		{
+		       	"i", print_int
+		}
+		{
+		       	"f", print_float 
+		}
 		{ "c", print_char },
-		{ "s", print_str },
-		{NULL, NULL}
-	}
+		 "s", print_str };
+		{
+			NULL, NULL;
+		}
+	};
 
 	va_start(list, format);
 
